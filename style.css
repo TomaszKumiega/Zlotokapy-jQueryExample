@@ -53,7 +53,10 @@ button {
     font-size: 19px;
     border: none;
     background: none;
-    color: #fffccd;
+}
+
+.menu-button {
+    color: #ffffff;
 }
 
 #left-panel {
