@@ -142,6 +142,15 @@ article {
 
 #sources {
     font-size: 9px;
+    margin-top: 30px;
+    float: left;
+}
+
+.article-image {
+    margin: 40px;
+    max-width: 90%;
+    text-align: center;
+    display: block;
 }
 
 .panel {
