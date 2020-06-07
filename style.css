@@ -12,7 +12,7 @@ html {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    align-items: center;
+    display: inline-table;
 }
 
 #header {
@@ -41,7 +41,7 @@ html {
     text-align: center;
     font-size: 23px;
     font-weight: bolder;
-    color: #3d3d3d;
+    color: #544e51;
 }
 
 #logo-button {
@@ -60,73 +60,74 @@ button {
 }
 
 #left-panel {
-    width: 25%;
+    flex: 1;
+    width: 20%;
     height: 100%;
     float: left;
-    display: block;
 }
 
 #content {
-    width: 50%;
-    height: 100%;
+    flex: 2;
+    width: 60%;
+    height: fit-content;
     float: left;
     background-color: #fafafa;
 }
 
 #right-panel {
-    width: 25%;
+    flex: 3;
+    width: 20%;
     height: 100%;
     float: left;
-    display: block;
 }
 
 .basecolor {
     height: 100%;
     width: 50%;
     background-color: #ececed;
-    float: left;
+    float: right;
 }
 
 .darker-1 {
     height: 100%;
     width: 9%;
     background-color: #ededee;
-    float: left;
+    float: right;
 }
 
 .darker-2 {
     height: 100%;
     width: 9%;
     background-color: #efefef;
-    float: left;
+    float: right;
 }
 
 .darker-3 {
     height: 100%;
     width: 9%;
     background-color: #f0f0f1;
-    float: left;
+    float: right;
 }
 
 .darker-4 {
     height: 100%;
     width: 9%;
     background-color: #f2f2f2;
-    float: left;
+    float: right;
 }
 
 .darker-5 {
     height: 100%;
     width: 9%;
     background-color: #f3f3f3;
-    float: left;
+    float: right;
 }
 
 .darker-6 {
     height: 100%;
     width: 5%;
     background-color: #f3f3f4;
-    float: left;
+    float: right;
 }
 
 article {
@@ -142,4 +143,8 @@ article {
 
 #sources {
     font-size: 9px;
+}
+
+.panel {
+    display: table-cell;
 }
