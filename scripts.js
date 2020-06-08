@@ -15,9 +15,10 @@ $(document).ready(function() {
         location.replace("ciekawostki.html");
     });
     $("#quiz-button").on("click", function() {
-        location.replace("quiz.html");
+        location.replace("quiz-question.html");
     });
     $("#galeria-button").on("click", function() {
         location.replace("galeria.html");
     });
+
 });
