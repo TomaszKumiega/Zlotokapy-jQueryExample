@@ -21,4 +21,14 @@ $(document).ready(function() {
         location.replace("galeria.html");
     });
 
+    loadFirstQuestion();
+
+    function loadFirstQuestion() {
+
+        $("#answer3").text('adfgadg');
+        $("#answer1").text('adfgadg');
+        $("#answer2").text('adfgadg');
+
+    }
+
 });
