@@ -19,7 +19,6 @@ $(document).ready(function() {
 
     function displayResult() {
 
-        alert('etat');
         if (countA > countB && countA > countC) $("#result").text('Nie jesteś złotokapem. Jesteś zwykłym ekscentrykiem.');
         else if (countB > countA && countB > countC) $("#result").text('Jesteś złotokapem zwyczajnym. Wykazujesz przeciętne reakcje na większość' +
             'wydarzeń w Twoim życiu. Prawdopodobnie charakteryzujesz się słabą decyzyjnością, dlatego' +
