@@ -7,13 +7,18 @@ $(document).ready(function() {
     nextQuestion();
 
     $("#next-question").on('click', function() {
-        writeAnswer();
-        quiz.questionNumber += 1;
-        nextQuestion();
 
-        $("#answer-button1").prop("checked", false);
-        $("#answer-button2").prop("checked", false);
-        $("#answer-button3").prop("checked", false);
+        if (($("#answer-button1").is(':checked') == false) && ($("#answer-button2").is(':checked') == false) && ($("#answer-button3").is(':checked') == false)) {
+            alert('Nie udzielono odpowiedzi');
+        } else {
+            writeAnswer();
+            quiz.questionNumber += 1;
+            nextQuestion();
+
+            $("#answer-button1").prop("checked", false);
+            $("#answer-button2").prop("checked", false);
+            $("#answer-button3").prop("checked", false);
+        }
     });
 
     $("#answer-button1").on('click', function() {
